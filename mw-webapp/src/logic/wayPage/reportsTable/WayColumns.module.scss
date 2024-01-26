@@ -1,0 +1,123 @@
+@import "src/styles/variables";
+
+$editableTimeWidth: 40px;
+$listLeftMargin: 20px;
+
+.editableTime {
+  text-align: right;
+}
+
+.summarySection {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.flatButton {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  color: transparent;
+  line-height: 20px;
+  text-align: center;
+  text-shadow: 0 0 0 var(--primaryTextColor);
+}
+
+.summaryText {
+  text-wrap: nowrap;
+}
+
+.numberedList {
+  flex: 1 0 auto;
+  list-style-type: none;
+}
+
+.list:last-child {
+  margin-bottom: $gapBig;
+}
+
+.comment {
+  list-style: none;
+}
+
+.comment:last-child {
+  margin-bottom: $marginMedium;
+}
+
+.numberedListItem {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dotted var(--primaryBorderColor);
+}
+
+.listNumberAndName {
+  align-items: baseline;
+}
+
+.editableTextarea {
+  flex-grow: 1;
+
+  textarea {
+    width: 100%;
+  }
+}
+
+.icon {
+  display: flex;
+  min-width: $iconSizeSmall;
+  min-height: $iconSizeSmall;
+  align-items: center;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.horizontalContainer {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateCell {
+  display: block;
+  min-width: $minWidthDate;
+  hyphens: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.checkbox {
+  width: $checkboxWidthSmall;
+  height: $checkboxHeightSmall;
+}
+
+.summarySection {
+  position: absolute;
+  bottom: $gapMedium;
+  width: calc(100% - 2 * $gapMedium);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: $marginSmall;
+  gap: $marginBig;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  min-width: 80px;
+}
+
+.verticalContainer {
+  width: 100%;
+}
+
+.positionTd {
+  position: relative;
+}

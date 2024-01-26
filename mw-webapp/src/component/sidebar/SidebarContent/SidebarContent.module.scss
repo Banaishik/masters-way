@@ -1,0 +1,71 @@
+@import "src/styles/_variables";
+
+$sidebar-animation-time: 350ms;
+$sidebar-padding: 25px;
+$sidebar-width: 300px;
+$sidebar-button-size: 20px;
+$sidebar-button-offset: 5px;
+
+.dialogOverlay {
+  position: fixed;
+  z-index: $sidebarZIndex;
+  animation: overlayShow $sidebar-animation-time cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: var(--primaryBackgroundColor);
+  inset: 0;
+  opacity: 0.5;
+}
+
+.dialogContent {
+  position: fixed;
+  z-index: $sidebarZIndex;
+  top: 0;
+  left: -$sidebar-width;
+  width: $sidebar-width;
+  height: 100%;
+  padding: $sidebar-padding;
+  animation: contentShow $sidebar-animation-time cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: var(--primaryBackgroundColor);
+
+  &:focus {
+    outline: none;
+  }
+
+  &[data-state="open"] {
+    left: 0;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: $sidebar-button-offset;
+  right: $sidebar-button-offset;
+  display: inline-flex;
+  width: $sidebar-button-size;
+  height: $sidebar-button-size;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

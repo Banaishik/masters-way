@@ -1,0 +1,25 @@
+2024-01-24T22:54:47.683Z: Getting Users collection$
+2024-01-24T22:54:48.201Z: Got 0 users
+2024-01-24T22:54:48.202Z: Required 0 READ operations
+2024-01-24T22:54:48.202Z: Getting Ways collection
+2024-01-24T22:54:48.275Z: Got 0 ways
+2024-01-24T22:54:48.276Z: Required 0 READ operations
+2024-01-24T22:54:48.276Z: Getting DayReports collection
+2024-01-24T22:54:48.933Z: Got 0 dayReports
+2024-01-24T22:54:48.933Z: Required 0 READ operations
+2024-01-24T22:54:48.934Z: Getting Goals collection
+2024-01-24T22:54:50.953Z: Got 0 goals
+2024-01-24T22:54:50.954Z: Required 0 READ operations
+2024-01-24T22:54:50.955Z: Getting GoalMetrics collection
+2024-01-24T22:54:52.823Z: Got 0 goalMetrics
+2024-01-24T22:54:52.824Z: Required 0 READ operations
+2024-01-24T22:54:52.824Z: Deleting documents in collections
+2024-01-24T22:54:52.825Z: Deleting documents in collections finished
+2024-01-24T22:54:52.833Z: 
+  Start time: Wed Jan 24 2024 23:54:47 GMT+0100 (Центральная Европа, стандартное время)
+  End time: Wed Jan 24 2024 23:54:52 GMT+0100 (Центральная Европа, стандартное время)
+  Total time: 5142 ms
+
+  Total READ operations amount: 0
+  Total Documents to deleted: 0
+

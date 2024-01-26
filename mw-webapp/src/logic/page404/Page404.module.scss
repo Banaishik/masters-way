@@ -1,0 +1,9 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.errorPageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: $fontSizeLarge;
+}

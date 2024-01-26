@@ -1,0 +1,16 @@
+@import "src/styles/variables";
+
+.link {
+  color: var(--tertiaryTextColor);
+  font-size: 18px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.link_container {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+}

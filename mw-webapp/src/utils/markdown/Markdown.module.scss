@@ -1,0 +1,34 @@
+@import "src/styles/variables";
+
+.a {
+  color: var(--tertiaryTextColor);
+}
+
+.imageContainer {
+  display: inline-block;
+  margin-top: $marginMedium;
+}
+
+.markdownImg {
+  max-width: $minWidthBlock;
+  max-height: $minHeightBlock;
+  object-fit: contain;
+}
+
+$listLeftMargin: 20px;
+
+.markdownList {
+  width: calc(100% - $listLeftMargin);
+  margin-left: $listLeftMargin;
+}
+
+.listItem {
+  &::marker {
+    visibility: hidden;
+  }
+}
+
+.markdownDivider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

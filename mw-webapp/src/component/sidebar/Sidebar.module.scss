@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+
+[role="dialog"] {
+  border-right: 1px solid var(--secondaryBackgroundColor);
+}
+
+.navSidebarContent {
+  display: flex;
+  flex-direction: column;
+  background: var(--primaryBackgroundColor);
+}
+
+.menuItem {
+  padding: 10px;
+  color: var(--primaryTextColor);
+  transition-duration: $elementHoverTransition;
+  &:hover {
+    background-color: var(--primaryShadowColor);
+  }
+}

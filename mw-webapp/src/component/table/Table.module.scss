@@ -1,0 +1,41 @@
+@import "src/styles/variables";
+
+$table-border: 1px solid var(--primaryBorderColor);
+$cell-max-width: 600px;
+
+.table {
+  width: 100%;
+  border: $table-border;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table th {
+  padding: 5px;
+  border: $table-border;
+  background: var(--primaryBackgroundColor);
+  background-clip: padding-box;
+  font-weight: bold;
+
+  // make createdAt fill minimum width
+  &:nth-child(1) {
+    width: 0;
+  }
+}
+
+.table td {
+  max-width: $cell-max-width;
+  padding: 8px 10px;
+  border: $table-border;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+
+  pre {
+    overflow: auto;
+  }
+}
+
+.tooltip {
+  color: var(--secondaryTextColor);
+}

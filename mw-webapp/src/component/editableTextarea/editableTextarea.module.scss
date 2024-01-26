@@ -1,0 +1,16 @@
+@import "src/styles/variables";
+
+$editableTextarea-width: 100%;
+
+.editableTextarea {
+  max-width: $editableTextarea-width;
+}
+
+
+textarea {
+  max-width: auto;
+  resize: 'none'; 
+  overflow: 'hidden'; 
+  width: 'auto'; 
+  white-space: 'nowrap';
+}

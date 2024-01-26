@@ -1,0 +1,38 @@
+@import "src/styles/variables";
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: $paddingMedium;
+  border-bottom: 1px solid var(--primaryBorderColor);
+  background-color: var(--primaryBackgroundColor);
+}
+
+.headerButtonsContainer {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.userName {
+  cursor: pointer;
+}
+
+@media (max-width: $mediaWidthMobileBig) {
+  .headerButtonsContainer {
+    width: 100%;
+  }
+}

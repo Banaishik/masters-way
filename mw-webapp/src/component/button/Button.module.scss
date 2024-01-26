@@ -1,0 +1,57 @@
+@import "src/styles/variables";
+
+.button {
+  padding: 13px 17px;
+  border: none;
+  border-radius: $primaryBorderRadius;
+  font-family: $primaryFontFamily;
+  font-size: $primaryFontSize;
+  transition-duration: $primaryTransitionDuration;
+
+  &:hover {
+    background-color: var(--hoverColor);
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: var(--activeColor);
+  }
+}
+
+.primary {
+  background-color: var(--tertiaryBackgroundColor);
+  color: var(--fourthTextColor);
+}
+
+.secondary {
+  border: var(--border);
+  background-color: var(--buttonColor);
+  color: var(--primaryTextColor);
+
+  &:hover {
+    background-color: var(--secondaryHoverColor);
+  }
+}
+
+.tertiary {
+  background-color: transparent;
+  color: var(--primaryTextColor);
+
+  &:hover {
+    background-color: var(--hoverColorLink);
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: var(--activeColorLink);
+  }
+}
+
+.fourth {
+  background-color: var(--buttonColor);
+  color: var(--primaryTextColor);
+}
+
+.disabled {
+  opacity: $disableOpacity;
+}

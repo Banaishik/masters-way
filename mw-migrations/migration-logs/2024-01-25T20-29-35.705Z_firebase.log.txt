@@ -1,0 +1,14 @@
+2024-01-25T20:29:37.416Z: All collections cleared$
+2024-01-25T20:29:49.137Z: 
+
+    Start read time: Thu Jan 25 2024 21:29:37 GMT+0100 (Центральная Европа, стандартное время)
+    End read time: Thu Jan 25 2024 21:29:37 GMT+0100 (Центральная Европа, стандартное время)
+    Total read time: 1706214577399
+
+    Start import time: Thu Jan 25 2024 21:29:37 GMT+0100 (Центральная Европа, стандартное время)
+    End import time: Thu Jan 25 2024 21:29:49 GMT+0100 (Центральная Европа, стандартное время)
+    Total import time: 11713 ms
+
+
+    Total Models written: 324
+  

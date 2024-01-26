@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $marginMedium;
+}
+
+.projectDescription {
+  max-width: 600px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 600px;
+}

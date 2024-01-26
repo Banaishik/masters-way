@@ -1,0 +1,72 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+// Modal
+$overlay-background: rgba(0, 0, 0, 50%);
+$modal-close-btn-top: 10px;
+$modal-close-btn-right: 10px;
+$modal-close-btn-size: 25px;
+$modal-animation-time: 150ms;
+
+.dialogOverlay {
+  position: fixed;
+  animation: overlayShow $modal-animation-time cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: $overlay-background;
+  inset: 0;
+}
+
+.dialogContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  overflow: auto;
+  width: 70vw;
+  max-width: 450px;
+  max-height: 85vh;
+  padding: 20px 45px;
+  border: 2px solid var(--secondaryBackgroundColor);
+  border-radius: 6px;
+  animation: contentShow $modal-animation-time cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: var(--primaryBackgroundColor);
+  transform: translate(-50%, -50%);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: $modal-close-btn-top;
+  right: $modal-close-btn-right;
+  display: inline-flex;
+  width: $modal-close-btn-size;
+  height: $modal-close-btn-size;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
