@@ -93,17 +93,6 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
    * Render Textarea
    */
   const renderTextarea = () => (
-      // <Textarea
-      // defaultValue={text}
-      // onChange={setText}
-      // placeholder={props.placeholder ?? ""}
-      // rows={props.rows}
-      // isAutofocus
-      // onKeyPress={handleCtrlEnter}
-      // />
-      //editableTextarea
-
-
       <textarea
         ref={textareaRef}
         onChange={handleChange}
