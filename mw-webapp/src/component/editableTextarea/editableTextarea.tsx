@@ -111,7 +111,7 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
         placeholder={props.placeholder ?? ""}
         rows={props.rows}
         onKeyPress={handleCtrlEnter}
-        style={{ resize: 'none', overflow: 'hidden',height : "20px", width: 'auto', whiteSpace: 'nowrap' }}
+        style={{ resize: 'none', overflow: 'hidden', height : "20px", width: 'auto', maxWidth : "300px", whiteSpace: 'nowrap' }}
       />    
   );
 

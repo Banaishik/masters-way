@@ -1,0 +1,548 @@
+[33mcommit 1ad49440a3559118bc13f4e60ff007d19b16723d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMW-411/Adjust-textarea[m[33m, [m[1;31morigin/MW-411/Adjust-textarea[m[33m)[m
+Merge: ba95010 d02d395
+Author: Banaishik <kostastavickij4@gmail.com>
+Date:   Sat Jan 27 13:31:42 2024 +0100
+
+    Merge branch 'MW-411/Adjust-textarea' into main
+
+[33mcommit ba9501092bd166d21555058381796fc8507c9a60[m
+Author: Banaishik <kostastavickij4@gmail.com>
+Date:   Fri Jan 26 23:36:01 2024 +0100
+
+    add dynamic functionality to a text field
+
+[33mcommit d02d39553555af747764098308d152ff15220114[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Fri Jan 26 11:10:09 2024 +0400
+
+    feat: #437 reports amount (#438)
+
+[33mcommit c432e4fa2ff0a2adb4bfa0cac6eaf0bf1f1c9bd7[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 25 13:49:11 2024 +0300
+
+    fix: #306 No the same tags (#431)
+
+[33mcommit bb95983a465b112bcc6b5814eb0eaa464ceda98f[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 25 13:02:07 2024 +0300
+
+    fix: #306 Fix (#430)
+
+[33mcommit 1bfc5e9fe03abae11c442c850fd8feb3e2c02f80[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 25 06:00:25 2024 +0300
+
+    feat: #306 Add tags to jobs and plans (#426)
+    
+    * fix: #306 add tags
+    
+    * feat: #306 Add tags to jobs and plans
+    
+    * fix: #306 Fix
+    
+    * fix: #306 fix
+    
+    * fix: #306 fix
+
+[33mcommit f5daede4e28c86edebd274ecb8b6974d522b6df2[m
+Author: Alexandr Chorniy <98408533+Alex89198900@users.noreply.github.com>
+Date:   Wed Jan 24 21:16:30 2024 +0200
+
+    Mw 87/create progress bar component (#414)
+    
+    * feat: #1 add firebase variables
+    
+    * feat: #2 add progress bar component
+    
+    * fix: #3 replace progres bar component
+    
+    * feat: #4 progress bar link to render
+    
+    * fix: #5 variables
+    
+    * feat: #6 add style to progress bar
+    
+    * fix: #7 style of progress bar
+    
+    * fix: #8 error correction
+    
+    * fix: #9 correct variables
+    
+    * fix: #10 restore env
+    
+    * fix: #11 style
+    
+    * fix: #12  interface
+    
+    * fix: #12 correct second time
+    
+    * fix: #13 rerestore env example
+    
+    * fix: #14 replace readme
+    
+    * fix: #15 version
+
+[33mcommit 652caafef624a448537c33f724e42106104ab351[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Tue Jan 23 21:21:25 2024 +0400
+
+    feat: #306 added statistics for tags (#420)
+
+[33mcommit 2680cb4bb65b9b619b257b4609f1677b1fba06b0[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Mon Jan 22 16:03:41 2024 +0400
+
+    feat: #417 way page settings refactored (#418)
+
+[33mcommit d00789d94dd1330de203a6611e5038052a6f8123[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Mon Jan 22 15:03:17 2024 +0300
+
+    feat: #281 Navigate to user page if logged in (#413)
+    
+    * feat: #281 Navigate to user page if logged in
+    
+    * fix: #281 fix
+    
+    * fix: #281 fix
+
+[33mcommit 41d26f74f82c6c9ee1e4e3e6f8fbd9d25ea11574[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Sat Jan 20 19:12:33 2024 +0300
+
+    fix: #335 Fix modal and used it instead of confirm (#410)
+    
+    * fix: #335 Fix modal and used it instead of confirm
+    
+    * fix: #335 Fix
+    
+    * fix: #335 created confirm component
+    
+    * fix: #335 fix
+    
+    * fix: #335 deleted state for modals in each page
+    
+    * fix: #335 Added component Confirm to storybook
+    
+    * fix: #335 Fix
+
+[33mcommit 66963ecbede7eaf8b340d1322fcbe58daaefa051[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 18 18:15:20 2024 +0300
+
+    MW-403/bug null input (#408)
+    
+    * fix: #403 Fix bug about return NaN (null) in number input
+    
+    * fix: #403 Fix bug about return NaN (null) in number input
+    
+    * fix: #103 Fix warnings in localhost about keys
+    
+    * fix: #361 Fix width columns bug
+    
+    * fix: #403 Update enum WayStatus to const object
+
+[33mcommit bbc5d681fd33a3f0512beb3517e6d69b02db1168[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Wed Jan 17 20:39:37 2024 +0300
+
+    fix: #360 fix dublicate requests (#406)
+    
+    * fix: #360 fix
+    
+    * fix: #360 Fix
+
+[33mcommit 90c1f4f30e77406cd3df5ad7f29363f06f3667f7[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Wed Jan 17 19:02:21 2024 +0300
+
+    feat: #360 add optimization to requests (#405)
+
+[33mcommit 724834567e347c8f76d7151e2c4a162cf8a08d6b[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Wed Jan 17 15:53:46 2024 +0300
+
+    fix: #360 Fixed bug about import nanoseconds from backup (#404)
+    
+    * fix: #360 Fixed bug about import nanoseconds from backup
+    
+    * fix: #360 Fixed bug about import nanoseconds from backup
+    
+    * fix: #360 Fixed bug about import nanoseconds from backup
+
+[33mcommit 1caa9f2865a9e4a1a8ef77eb3bc4a35b166c8b08[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Wed Jan 17 15:02:30 2024 +0400
+
+    feat: #385 add events to analytics (#402)
+
+[33mcommit 683f085919c00c14ac1a160652018d1546cb705d[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Wed Jan 17 12:33:17 2024 +0400
+
+    Mw 400/export way pdf (#401)
+    
+    * feat: #400 export way to pdf
+    
+    * feat: #400 export way to pdf
+    
+    * feat: #400 export way to pdf
+    
+    * feat: #400 Add styles and blocks to render into pdf
+    
+    * fix: #400 Fix
+    
+    * fix: #400 Fix
+    
+    ---------
+    
+    Co-authored-by: Ekaterina1994 <katishteno@mail.ru>
+
+[33mcommit bb27de4c489e6789091d952e26ddd54618836dee[m
+Author: Arthur <114860794+Howl404@users.noreply.github.com>
+Date:   Tue Jan 16 20:50:26 2024 +0200
+
+    feat: #360 Request optiimisation (less than 10 with no data duplicates) (#375)
+    
+    * feat: #360 optimize requests to get ways previews, add exported uuid fields for user and goal
+    
+    * feat: #360 remove !==, replace find with filter, use chunk helper
+    
+    * fix: #360 Fix
+    
+    ---------
+    
+    Co-authored-by: Ekaterina1994 <katishteno@mail.ru>
+    Co-authored-by: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+
+[33mcommit 1aa7f28faac762023d1828edbf021fbbb2c38515[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Mon Jan 15 17:23:40 2024 +0300
+
+    docs: #370 Updated docs (#398)
+
+[33mcommit 38bef429268dd3a37df53576570de9cfc185fc8c[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Mon Jan 15 15:17:06 2024 +0300
+
+    docs: #370 Added doc about local firebase usage (#397)
+    
+    * docs: #370 Added doc about local firebase usage
+    
+    * docs: #370 Added doc about local firebase usage
+
+[33mcommit 75134b3ebde70bdd08a88bb3272f5d6e1cff9e0d[m
+Author: Sergei Aslanov <103531486+SergioAJS@users.noreply.github.com>
+Date:   Mon Jan 15 07:47:13 2024 +0500
+
+    feat: #285 add styles for checkbox component (#381)
+    
+    * feat: #285 add styles for checkbox
+    
+    * feat: #285 add styles to checkbox component
+    
+    * refactor: #285 create variables
+    
+    * refactor: #285 delete unneeded react fragment
+
+[33mcommit 16fcee9ab2c32a460e8174fd54ed0a8310e457c9[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Mon Jan 15 01:50:54 2024 +0400
+
+    feat: #385 added analytics (#386)
+
+[33mcommit 5e7f95e9a6c75862447fb5a6564ccfb9d649d1f4[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Sun Jan 14 16:42:44 2024 +0400
+
+    feat: #361 align total in tables, redirect on create way, align text in tables (favorites column) (#383)
+
+[33mcommit 5ff2c4e311242fa0d0fac4b3d0d1632dcb3e5c68[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Sun Jan 14 16:26:04 2024 +0400
+
+    feat: #334 remove errors in console (#382)
+
+[33mcommit 1d55b004801abb1afa2f9467bff47d93f33d8b55[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Sun Jan 14 00:13:05 2024 +0300
+
+    feat: #370 Add import collections (#380)
+    
+    * feat: #370 Add import collections
+    
+    * fix: #370 fix
+    
+    * fix: #370 fix
+    
+    * feat: #370 import firebase
+    
+    * fix: #370 delete backups files
+    
+    * fix: #370 delete backups files
+    
+    * Update mw-migrations/backups/README.md
+    
+    ---------
+    
+    Co-authored-by: tritonJS826 <triton.68@mail.ru>
+    Co-authored-by: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+
+[33mcommit 17383e49d6f615bb79874425be5149fd0243c914[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 11 21:46:40 2024 +0300
+
+    MW 361/Created-component-icon (#377)
+    
+    * fix: #361 Fix tooltips and created icons
+    
+    * fix: #361 fix
+    
+    * feat: #361 Fixed icon component
+    
+    * fix: #361 fix PR
+    
+    * fix: #361 fix
+    
+    * fix: #361 fix
+    
+    * fix: #361 fix
+    
+    * fix: #361 fix
+
+[33mcommit 62a7bc22c099c0014fdd746520e2e5828b226247[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Thu Jan 11 20:43:15 2024 +0400
+
+    feat: #370 backup database (#379)
+
+[33mcommit 35bd329a5e854043497918639deb63166db2bd22[m
+Author: Sergei Aslanov <103531486+SergioAJS@users.noreply.github.com>
+Date:   Tue Jan 9 00:48:24 2024 +0500
+
+    feat: #373 align colors for themes with design (#374)
+
+[33mcommit f36bf273dc56e056d3ec7c8870f7320dc8b459dd[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Mon Jan 8 19:57:05 2024 +0300
+
+    fix: #361 Used icons instead of select for show, hide block (#372)
+
+[33mcommit 28476d6995a946346794c7a1ce59803d887f993e[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Mon Jan 8 17:52:41 2024 +0300
+
+    feat: #361 Fix some bugs (#369)
+
+[33mcommit ab97921320a3340693c7234dfbd451e1e29adb7b[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Fri Jan 5 15:43:30 2024 +0300
+
+    fix: #361 hot fix (#368)
+
+[33mcommit 6b9e3251ff31e969e3b307008d981afd8e220469[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Fri Jan 5 15:13:57 2024 +0300
+
+    feat: #361 refactored code (#367)
+    
+    * feat: #361 refactored code
+    
+    * fix: #361 fix
+    
+    * fix: #361 fix
+    
+    * Update mw-webapp/src/logic/wayPage/MentorRequestsSection.tsx
+    
+    ---------
+    
+    Co-authored-by: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+
+[33mcommit 543027a6de27f0e74a0ed45575d6fffb915cee12[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 4 17:33:14 2024 +0300
+
+    feat: #361 Add migration (#366)
+    
+    * feat: #361 Add migration
+    
+    * docs: #361 add migration log
+
+[33mcommit f7f3f89d265f13d5b85d2288e6ffecbb42588e1d[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 4 16:42:47 2024 +0300
+
+    feat: #361 fix styles bugs (#365)
+    
+    * feat: #361 fix styles bugs
+    
+    * fix: #361 fix
+    
+    * fix: #361 fix
+
+[33mcommit ce8be3547e323916a646d93c6005e2ce55ccc43b[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Thu Jan 4 12:51:22 2024 +0400
+
+    Update README.md (#364)
+
+[33mcommit e606b1dc98116ef51fa12cc82a46b9ed35b18450[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Thu Jan 4 01:22:52 2024 +0300
+
+    feat: #361 Add styles bugs (#362)
+    
+    * feat: #361 Add styles bugs
+    
+    * feat: #361 Add styles bugs
+
+[33mcommit c34a20ec98a462aa30bdbcb72409ddc2896e40c7[m
+Author: Arthur <114860794+Howl404@users.noreply.github.com>
+Date:   Thu Jan 4 00:13:40 2024 +0200
+
+    feat: #300 add useload hook (#342)
+    
+    * feat: #300 useLoad hook to fetch and validate data
+    
+    * feat: #300 rename types, dependendies array instead of single dependency
+    
+    * refactor: #300 rename type and change comment
+    
+    * refactor: #300 not optional on error, rename types
+    
+    * feat: #300 add use load to other pages, access to create way on user page, address comments
+    
+    * feat: #300 interface instead of return type
+
+[33mcommit 8d61528c46c48bdd8fa0370baefa6acc5645a008[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Wed Jan 3 14:39:29 2024 +0300
+
+    feat: #351 Add styles (#359)
+    
+    * feat: #351 Add styles
+    
+    * fix: #351 Fix width of goalSubSection
+    
+    * fix: #351 Fix width of goalSubSection
+    
+    * fix: #351 fixed
+    
+    * fix: #351 Fix average last weeks statistics
+    
+    * fix: #351 Fix average last weeks statistics
+    
+    * fix: #351 Fix links on UsePage and possibility to create new way
+    
+    * fix: #351 Fix
+
+[33mcommit 344f130ecc09e6a52035f4fea6c81155ff430e26[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Tue Jan 2 18:47:07 2024 +0300
+
+    refactor: #351 fix render images md, add styles to inputs, refactored… (#358)
+    
+    * refactor: #351 fix render images md, add styles to inputs, refactored render ownWays, mentoringWays, favoritesWays
+    
+    * feat: #351 fix PR commits
+
+[33mcommit 2af1d30e0293387478e586983217454720905b1d[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Tue Jan 2 15:09:24 2024 +0400
+
+    fix: #353 settings page (#357)
+
+[33mcommit fad31e0c861a4ea58595f925d6ae4a1ea3460c89[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Tue Jan 2 14:46:04 2024 +0400
+
+    feat: #353 thematization example (#354)
+    
+    * feat: #353 thematization example
+    
+    * feat: #353 add theme variables
+
+[33mcommit bd51907e3bf731538ff65fa8daa1de0fe45c8784[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Tue Jan 2 01:08:18 2024 +0300
+
+    Mw 351/hot fix (#356)
+    
+    * fix: #351 hot fix scrollable
+    
+    * fix: #351 hot fix
+    
+    * fix: #351 hot fix
+
+[33mcommit 995757ae76620dc95f0852aaa96e7a3ae3d047b1[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Tue Jan 2 00:38:47 2024 +0300
+
+    feat: #351 Add types of buttons, added tooltips to headers (#355)
+    
+    * feat: #351 ADd types of buttons, added tooltips to headers
+    
+    * feat: #351 ADd types of buttons, added tooltips to headers
+    
+    * fix: #351 Fix PR comments
+    
+    * fix: #351 Fix PR comments
+    
+    * fix: #351 Fix PR comments
+    
+    * fix: #351 Fix PR comments
+
+[33mcommit cdc7a1fcc9f18e977d1448efe97794637bad65d4[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Sun Dec 31 06:39:54 2023 +0300
+
+    feat: #351 add styles (#352)
+
+[33mcommit 1559bcd10d4cf37f8bc159af5d8ca2a5fe076726[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Sat Dec 30 14:37:14 2023 +0300
+
+    feat: #349 Create migration to delete deprecated fields in DayReports (#350)
+    
+    * feat: #349 Create migration to delete deprecated fields in DayReports
+    
+    * feat: #349 add log file after migrate
+
+[33mcommit a28ded4857bd0a0c5ba3f8fc955d3ce6a06a2e1e[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Sat Dec 30 14:29:09 2023 +0300
+
+    feat: #344 Add logger that show amount of request operations (#348)
+    
+    * feat: #344 Add logger that show amount of request operations
+    
+    * fix: #344 Renamed env
+    
+    * fix: #344 Refactored logRequest
+    
+    * feat: #344 Add log function to all services
+    
+    * feat: #344 update Way model - mentors is hashmap
+    
+    * fix: #344 Fix PR comments
+    
+    * fix: #344 delete else block in logToConsole
+
+[33mcommit 327d769465ec28bd6a2d3f08290c938b2eae3ed5[m
+Author: Viktar Veratsennikau <56690686+tritonJS826@users.noreply.github.com>
+Date:   Sat Dec 30 15:26:26 2023 +0400
+
+    Mw 246/add logo (#347)
+    
+    * docs: #345 update core features
+    
+    * feat: #346 add logo
+
+[33mcommit 82f4e962bf449e73b2206f11023e5e362e61b3e9[m
+Author: Ekaterina <57002521+Ekaterina1994@users.noreply.github.com>
+Date:   Fri Dec 29 13:22:02 2023 +0300
+
+    fix: #328 Fix render sidebar in storybook (#343)
+
+[33mcommit 749f6
