@@ -100,9 +100,7 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
       onKeyDown={handleCtrlEnter}
       className={clsx(styles.editableTextarea, props.className)}
     >
-      {isEditing ? renderTextarea() : renderSpan(text)}
-
+      {isEditing ? renderTextarea() : <span style={{ whiteSpace: 'pre-wrap' }} >{text}</span>}
     </div>
   );
 };
-

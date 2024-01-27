@@ -24,7 +24,7 @@ const renderEmptySpan = (placeholderSpanText?: string) => (
 /**
  * Render cell's span
  * TODO: move to separate component, task #208
- */
+*/
 export const renderSpan = (value: string | number, isDone?: boolean, placeholderSpanText?: string) => (
   (value === "")
     ? renderEmptySpan(placeholderSpanText)
