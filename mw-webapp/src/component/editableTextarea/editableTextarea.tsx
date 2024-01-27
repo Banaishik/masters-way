@@ -4,6 +4,9 @@ import {renderSpan} from "src/component/editableText/renderSpan";
 import {Textarea} from "src/component/textarea/Textarea";
 import {KeySymbols} from "src/utils/KeySymbols";
 import styles from "src/component/editableTextarea/editableTextarea.module.scss";
+import { strict } from "assert";
+import { string } from "zod";
+import "./editableTextarea.css"
 
 /**
  * Cell item props
@@ -53,7 +56,6 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
   useEffect(() => {
     setText(props.text);
   }, [props.text]);
-
   /**
    * HandleChangeFinish
    */
@@ -71,21 +73,12 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
     }
   };
 
-  const textareaRef = useRef<HTMLTextAreaElement | null>(null);
-
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
-    // setText()
-    // autoResizeWidth()
     const newText = event.target.value;
     setText(newText);
-    autoResizeWidth();
 
-  };
-
-  const autoResizeWidth = () => {
-    if (textareaRef.current) {
-      textareaRef.current.style.width = 'auto';
-      textareaRef.current.style.width = `${textareaRef.current.scrollWidth}px`;
+    if (event.target.parentNode instanceof HTMLElement) {
+      event.target.parentNode.dataset.replicatedValue = newText;
     }
   };
 
@@ -93,15 +86,9 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
    * Render Textarea
    */
   const renderTextarea = () => (
-      <textarea
-        ref={textareaRef}
-        onChange={handleChange}
-        defaultValue={text}
-        placeholder={props.placeholder ?? ""}
-        rows={props.rows}
-        onKeyPress={handleCtrlEnter}
-        style={{ resize: 'none', overflow: 'hidden', height : "20px", width: 'auto', maxWidth : "300px", whiteSpace: 'nowrap' }}
-      />    
+    <div className="grow-wrap">
+      <textarea name="text" id="text" value={text} onChange={e => handleChange(e)} ></textarea>
+    </div>
   );
 
   return (
