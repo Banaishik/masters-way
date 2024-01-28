@@ -4,8 +4,6 @@ import {renderSpan} from "src/component/editableText/renderSpan";
 import {Textarea} from "src/component/textarea/Textarea";
 import {KeySymbols} from "src/utils/KeySymbols";
 import styles from "src/component/editableTextarea/editableTextarea.module.scss";
-import { strict } from "assert";
-import { string } from "zod";
 import "./editableTextarea.css"
 
 /**
@@ -86,8 +84,8 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
    * Render Textarea
    */
   const renderTextarea = () => (
-    <div className="grow-wrap">
-      <textarea name="text" id="text" value={text} onChange={e => handleChange(e)} ></textarea>
+    <div className={styles.growWrap}>
+      <textarea value={text} onChange={e => handleChange(e)} ></textarea>
     </div>
   );
 
@@ -98,9 +96,10 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
       }}
       onBlur={handleChangeFinish}
       onKeyDown={handleCtrlEnter}
-      className={clsx(styles.editableTextarea, props.className)}
+      className={styles.growWrap}
     >
-      {isEditing ? renderTextarea() : <span style={{ whiteSpace: 'pre-wrap' }} >{text}</span>}
+      {isEditing ? renderTextarea() : renderSpan(text) }
     </div>
   );
 };
+
