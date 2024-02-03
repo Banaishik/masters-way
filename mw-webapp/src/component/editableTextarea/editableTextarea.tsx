@@ -51,6 +51,7 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
   useEffect(() => {
     setText(props.text);
   }, [props.text]);
+
   /**
    * Handles the completion of changes.
    */
@@ -67,17 +68,26 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
       handleChangeFinish();
     }
   };
+
+  /**
+   *
+   */
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setText(event.target.value);
   };
+
   /**
    * Render Textarea
    */
   const renderTextarea = () => (
     <div className={styles.growWrap}>
-      <textarea value={text} onChange={e => handleChange(e)}></textarea>
+      <textarea
+        value={text}
+        onChange={e => handleChange(e)}
+      />
     </div>
   );
+
   return (
     <div
       onDoubleClick={() => {

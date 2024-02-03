@@ -13,23 +13,22 @@ $editableTextarea-width: 100%;
 
 .growWrap::after {
   content: attr(data-replicated-value) " ";
-  white-space: pre-wrap;
   visibility: hidden;
+  white-space: pre-wrap;
 }
 
 .growWrap textarea {
-  resize: none;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  resize: none;
   white-space: pre-wrap;
 }
 
-
 .growWrap > textarea,
 .growWrap::after {
-  border: 1px solid black;
   padding: 0.5rem;
+  border: 1px solid black;
   font: inherit;
   grid-area: 1 / 1 / 2 / 2;
 }
