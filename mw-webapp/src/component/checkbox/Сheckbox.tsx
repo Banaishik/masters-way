@@ -47,6 +47,7 @@ export const Checkbox = (props: CheckboxProps) => {
   return (
     <label>
       <input
+        data-testid="checkbox-input"
         className={clsx(props.className, styles.checkbox)}
         type="checkbox"
         checked={isChecked}

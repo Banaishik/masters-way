@@ -1,10 +1,7 @@
-import {ChangeEvent, useEffect, useState, useRef} from "react";
-import clsx from "clsx";
+import {ChangeEvent, useEffect, useState} from "react";
 import {renderSpan} from "src/component/editableText/renderSpan";
-import {Textarea} from "src/component/textarea/Textarea";
 import {KeySymbols} from "src/utils/KeySymbols";
 import styles from "src/component/editableTextarea/editableTextarea.module.scss";
-import "./editableTextarea.css"
 
 /**
  * Cell item props
@@ -55,7 +52,7 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
     setText(props.text);
   }, [props.text]);
   /**
-   * HandleChangeFinish
+   * Handles the completion of changes.
    */
   const handleChangeFinish = () => {
     props.onChangeFinish(text);
@@ -70,25 +67,17 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
       handleChangeFinish();
     }
   };
-
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
-    const newText = event.target.value;
-    setText(newText);
-
-    if (event.target.parentNode instanceof HTMLElement) {
-      event.target.parentNode.dataset.replicatedValue = newText;
-    }
+    setText(event.target.value);
   };
-
   /**
    * Render Textarea
    */
   const renderTextarea = () => (
     <div className={styles.growWrap}>
-      <textarea value={text} onChange={e => handleChange(e)} ></textarea>
+      <textarea value={text} onChange={e => handleChange(e)}></textarea>
     </div>
   );
-
   return (
     <div
       onDoubleClick={() => {
@@ -102,4 +91,3 @@ export const EditableTextarea = (props: EditableTextareaProps) => {
     </div>
   );
 };
-

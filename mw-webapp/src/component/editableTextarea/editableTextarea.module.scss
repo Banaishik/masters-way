@@ -1,5 +1,7 @@
 @import "src/styles/variables";
 
+$editableTextarea-width: 100%;
+
 .editableTextarea {
   max-width: $editableTextarea-width;
 }
@@ -35,4 +37,3 @@
 .growWrap span {
   white-space: pre-wrap;
 }
-
